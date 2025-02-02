@@ -124,7 +124,11 @@ body {
 .section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background: linear-gradient(
+      40deg,
+      blue,
+      orange
+    );
     color: #000;
     border-radius: 20px;
     font-size: 12px;
@@ -169,9 +173,9 @@ body {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(
-        90deg,
-        rgb(255, 0, 195),
-        rgb(55, 55, 255)
+        40deg,
+        rgb(34, 0, 255),
+        rgb(255, 174, 0)
     );
     position: fixed;
     bottom: 0;
